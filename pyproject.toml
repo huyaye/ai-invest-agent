@@ -1,0 +1,15 @@
+[project]
+name = "ai-invest-agent"
+version = "0.0.1"
+dependencies = [
+    "openai",
+    "yfinance",
+    "python-dotenv"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
